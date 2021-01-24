@@ -1,0 +1,1 @@
+go build --buildmode=plugin -gcflags="all=-N -l" -o localfile.so main.go
